@@ -5,6 +5,8 @@ The application in brief will provide users to set location of the potholes and 
 ## Technologies
 
 - **Programming languages**: Dart, Python, JS
+  - *Frameworks&Libraries*: Flutter, Django or Flask
+- **Storage**: PostgreSQL, Redis
 - **Containerization**: Docker
 - **Version control**: Github
 - **Text editor**: VSC
