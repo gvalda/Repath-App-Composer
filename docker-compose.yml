@@ -3,6 +3,10 @@ version: '3.8'
 services:
   mobile:
     build: ./mobile
+    env_file:
+      - .env/.mobile.env
 
-    
-  # backend:
+  backend:
+    build: ./backend
+    env_file:
+      - ./env/.backend.env
