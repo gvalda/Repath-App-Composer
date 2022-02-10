@@ -16,7 +16,7 @@ The application in brief will provide users to set location of the potholes and 
 ## Installation
 
 ```bash
-git clone https://github.com/yogoh31/Repath-App-Composer
+git clone --recurse-submodules -j8 https://github.com/yogoh31/Repath-App-Composer
 
 ```
 
