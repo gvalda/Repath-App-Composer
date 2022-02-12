@@ -6,16 +6,17 @@ services:
       context: ./mobile
     environment:
       NODE_OPTIONS: --openssl-legacy-provider
+      CHOKIDAR_USEPOLLING: 1 
       EXPO_DEVTOOLS_LISTEN_ADDRESS: 0.0.0.0
-      REACT_NATIVE_PACKAGER_HOSTNAME: 192.168.0.92
     tty: true
     stdin_open: true
     ports:
       - '19000:19000'
       - '19001:19001'
       - '19002:19002'
-    # volumes:
-    #   - ./app/src:/app/src
+    volumes:
+      - ./mobile/app:/app
+      - notused:/app/node_modules
     env_file:
       - .env/.mobile.env
 
