@@ -14,8 +14,12 @@ services:
       - '19001:19001'
       - '19002:19002'
     volumes:
-      - ./mobile/app:/app
-      - notused:/app/node_modules
+      # - ./mobile/app:/app
+      # - notused:/app/node_modules
+      # - type: bind
+      #   source: ./mobile/app/app.json
+      #   target: /app/app.json
+      - ./mobile/app/src:/app/src
     env_file:
       - .env/.mobile.env
 
@@ -24,5 +28,5 @@ services:
     env_file:
       - .env/.backend.env
 
-volumes:
-  notused:
+# volumes:
+#   notused:
