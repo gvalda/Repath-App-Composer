@@ -1,6 +1,3 @@
-[submodule "mobile"]
-	path = mobile
-	url = https://github.com/yogoh31/Repath-App-Mobile-Kotlin
 [submodule "backend"]
 	path = backend
 	url = https://github.com/yogoh31/Repath-App-Backend
