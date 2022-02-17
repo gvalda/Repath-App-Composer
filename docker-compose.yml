@@ -1,22 +1,22 @@
 version: '3.8'
 
 services:
-  mobile:
-    build:
-      context: ./mobile
-    environment:
-      CHOKIDAR_USEPOLLING: 1 
-      EXPO_DEVTOOLS_LISTEN_ADDRESS: 0.0.0.0
-    tty: true
-    stdin_open: true
-    ports:
-      - '19000:19000'
-      - '19001:19001'
-      - '19002:19002'
-    volumes:
-      - ./mobile/app/src:/app/src
-    env_file:
-      - .env/.mobile.env
+  # mobile:
+  #   build:
+  #     context: ./mobile
+  #   environment:
+  #     CHOKIDAR_USEPOLLING: 1 
+  #     EXPO_DEVTOOLS_LISTEN_ADDRESS: 0.0.0.0
+  #   tty: true
+  #   stdin_open: true
+  #   ports:
+  #     - '19000:19000'
+  #     - '19001:19001'
+  #     - '19002:19002'
+  #   volumes:
+  #     - ./mobile/app/src:/app/src
+  #   env_file:
+  #     - .env/.mobile.env
 
   backend:
     build: ./backend
