@@ -4,52 +4,32 @@ The application in brief will provide users to set location of the potholes and 
 
 ## Technologies
 
-- **Programming languages**: Dart, Python, JS
-  - *Frameworks&Libraries*: Flutter, Django or Flask
+- **Programming languages**: Kotlin, Python
+  - *Frameworks&Libraries*: Django, Flask
 - **Storage**: PostgreSQL, Redis
 - **Containerization**: Docker
 - **Version control**: Github
-- **Text editor**: VSC
-  - *Plugins*: Docker, Remote Development
-- **Other dependencies**: SDK Platform Tools
+- **Development environments**: VSCode, AndroidStudio
+- **Project managment tool**: [Jira](https://tech-project.atlassian.net/jira/software/projects/RA/boards/4)
 
 ## Installation
 
 ```bash
 git clone --recurse-submodules -j8 https://github.com/yogoh31/Repath-App-Composer
-
 ```
 
-## [Usage](https://blog.codemagic.io/how-to-dockerize-flutter-apps/#:~:text=is%20available%20here.-,Build%20and%20run%20Docker%20container,-As%20we%20have)
+### Running
 
-### To connect the mobile device
+Run mobile application directly from Android Studio.
 
-```adb
-adb devices
-```
-> To see the list of connected devices
-
-```adb
-adb tcpip 5555 
-adb connect 192.168.0.5:5555
-```
-> To connect to the device wirelessly. *(Replace the IP address with that of the WiFi the mobile device is connected to. You can get it by going to **WiFi Settings -> Advanced** on your mobile device)*
-
-
-```adb
-flutter doctor
-```
-> To verify that the device is recognized by Flutter
-
-### To run
-
+To start backend and database services you should to run Makefile:
 ```bash
-cd mobile/workspace/app
-flutter run
+make all
 ```
-> This will run the demo counter Flutter app directly on the connected device from the Docker container.\
-> P.S. *Build might take a couple of minutes*\
-> P.S.S. *You may use additional run parameter **-v** to see more detailed output*
+> For Windows running systems you have to call docker-compose file instead:
+```bash
+docker-compose up --build -d
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
