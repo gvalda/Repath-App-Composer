@@ -12,11 +12,6 @@ The application in brief will provide users to set location of the potholes and 
 - **Recommended IDEs and Text editors**: VSCode, AndroidStudio
 - **Project managment tool**: [Jira](https://tech-project.atlassian.net/jira/software/projects/RA/boards/4)
 
-## Documentation
-
-### &emsp;Backend ERD implementation
-[![alt text](https://github.com/yogoh31/Repath-App-Composer/blob/master/documentation/backend-erd.jpg?raw=true)](https://app.sqldbm.com/PostgreSQL/Edit/p204138/)
-
 ## Installation
 
 ```bash
@@ -35,6 +30,11 @@ make all
 ```bash
 docker-compose up --build -d
 ```
+
+## Documentation
+
+### &emsp;Backend ERD implementation
+[![alt text](https://github.com/yogoh31/Repath-App-Composer/blob/master/documentation/backend-erd.jpg?raw=true)](https://app.sqldbm.com/PostgreSQL/Edit/p204138/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
