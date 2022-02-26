@@ -5,12 +5,17 @@ The application in brief will provide users to set location of the potholes and 
 ## Technologies
 
 - **Programming languages**: Kotlin, Python
-  - *Frameworks&Libraries*: Django, Flask
-- **Storage**: PostgreSQL, Redis
-- **Containerization**: Docker
+  - *Frameworks and Libraries*: Django
+- **Storage**: PostgreSQL, ?Redis?
+- **Containerization tool**: Docker
 - **Version control**: Github
-- **Development environments**: VSCode, AndroidStudio
+- **Recommended IDEs and Text editors**: VSCode, AndroidStudio
 - **Project managment tool**: [Jira](https://tech-project.atlassian.net/jira/software/projects/RA/boards/4)
+
+## Documentation
+
+### &emsp;Backend ERD implementation
+[![alt text](https://github.com/yogoh31/Repath-App-Composer/blob/master/documentation/backend-erd.jpg?raw=true)](https://app.sqldbm.com/PostgreSQL/Edit/p204138/)
 
 ## Installation
 
@@ -22,7 +27,7 @@ git clone --recurse-submodules -j8 https://github.com/yogoh31/Repath-App-Compose
 
 Run mobile application directly from Android Studio.
 
-To start backend and database services you should to run Makefile:
+To start backend and database services you should run Makefile:
 ```bash
 make all
 ```
