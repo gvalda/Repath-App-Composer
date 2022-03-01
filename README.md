@@ -10,7 +10,7 @@ The application in brief will provide users to set location of the potholes and 
 - **Containerization tool**: Docker
 - **Version control**: Github
 - **Recommended IDEs and Text editors**: VSCode, AndroidStudio
-- **Project managment tool**: [Jira](https://ldva.atlassian.net/jira/software/projects/RA/boards/4/backlog)
+- **Project managment tool**: [Jira](https://eeeeeeeeeeeeee.atlassian.net/jira/software/projects/RA/boards/4)
 
 ## Installation
 
