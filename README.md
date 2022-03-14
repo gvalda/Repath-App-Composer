@@ -5,7 +5,7 @@ The application in brief will provide users to set location of the potholes and 
 ## Technologies
 
 - **Programming languages**: Kotlin, Python
-  - *Frameworks and Libraries*: Django
+  - *Frameworks and Libraries*: Django, Retrofit, GoogleAPI
 - **Storage**: PostgreSQL, ?Redis?
 - **Containerization tool**: Docker
 - **Version control**: Github
